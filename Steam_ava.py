@@ -59,4 +59,4 @@ def make_html(avas):
     return hs.name
 
 
-#webbrowser.open(make_html(ava_parser(id_parser(dump_split(req_fr_list(steamid))))))
+webbrowser.open(make_html(ava_parser(id_parser(dump_split(req_fr_list(steamid))))))
