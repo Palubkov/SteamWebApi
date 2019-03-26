@@ -3,9 +3,13 @@ import json
 import webbrowser
 import os
 
+alexey = '76561197998462172'
+ya = '76561198099339506'
+roman = '76561198108219934'
+dmitry = ''
 
 key = '12DFAEB25ABD07C6DC8BA4E82CCF8204'
-steamid = '76561197998462172'
+steamid = ya
 
 
 def req_fr_list(s_id):

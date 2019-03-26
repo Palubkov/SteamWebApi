@@ -2,7 +2,8 @@ import pytest
 import Steam_ava
 import os
 
-steamid = '76561197998462172'
+steamid = Steam_ava.steamid
+
 key = '12DFAEB25ABD07C6DC8BA4E82CCF8204'
 
 
