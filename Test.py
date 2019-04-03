@@ -2,23 +2,9 @@ import pytest
 import Steam_ava
 import os
 
-steamid = Steam_ava.steamid
+STEAMID = Steam_ava.steamid
 
-key = '12DFAEB25ABD07C6DC8BA4E82CCF8204'
-
-
-@pytest.fixture
-def friends():
-    data = Steam_ava.id_parser(
-        Steam_ava.dump_split(Steam_ava.req_fr_list(steamid)))
-    return data
-
-
-@pytest.fixture
-def avatars():
-    data = Steam_ava.ava_parser(
-        Steam_ava.dump_split(Steam_ava.req_ava(steamid)))
-    return data
+KEY = '12DFAEB25ABD07C6DC8BA4E82CCF8204'
 
 
 def test_check_type_fr(friends):
