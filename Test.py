@@ -3,7 +3,7 @@ import Steam_ava
 import os
 
 def test_check_type_fr(friends):
-    return type(friends[1]) == str
+    return type(friends[0]) == str
 
 
 def test_check_count_fr(friends):
@@ -11,7 +11,7 @@ def test_check_count_fr(friends):
 
 
 def test_check_type_ava(avatars):
-    return type(avatars[1]) == str
+    return type(avatars[0]) == str
 
 
 def test_check_count_ava(avatars):
